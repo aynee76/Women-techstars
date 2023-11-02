@@ -10,3 +10,68 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin: 1rem 0;
+    gap: 8px;
+}
+
+span {
+    width: 70px;
+    height: 1px;
+    background-color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.code {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+input {
+    height: 26px;
+    width: 16rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid;
+    padding: 4px;
+}
+
+.button {
+    width: 17.5rem;
+    height: 26px;
+    border: 1px solid #0A9250;
+    outline: none;
+    background-color: #0A9250;
+    border-radius: 4px;
+    color: white;
+}
