@@ -17,13 +17,14 @@ body {
 main {
     display: flex;
     margin-top: 2rem;
-    
+    border-radius: 8px;
 }
 
 .left {
     width: 350px;
     background-color: #F6F7F9;
     padding: 2rem;
+    border-radius: 8px 0 0 8px;
 }
 
 nav {
@@ -65,6 +66,7 @@ nav {
 .right {
     background-color: white;
     padding: 1rem 0;
+    border-radius: 0 8px 8px 0;
 }
 
 header {
@@ -117,6 +119,7 @@ header {
     border-radius: 4px;
     padding: 0.3rem;
     background-color: #F6F7F9;
+    cursor: pointer;
 }
 
 .list input:hover {
@@ -128,8 +131,8 @@ header {
 .search {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 7rem;
+    justify-content: flex-start;
+    width: 6.5rem;
     height: 2rem;
     background-color: white;
     border: 1px solid #f0eaea;
@@ -137,6 +140,7 @@ header {
     column-gap: 4px;
     cursor: pointer;
     font-size: 11px;
+    padding: 0.5rem;
 }
 
 /* scroll content  */
@@ -202,7 +206,7 @@ article {
     font-size: 11px;
     border-radius: 4px;
     column-gap: 8px;
-
+    cursor: pointer;
 }
 
 .logoline {
